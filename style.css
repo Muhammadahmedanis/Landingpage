@@ -1,0 +1,110 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    width: 97% !important;
+    margin: 10px auto !important;
+    border-radius: 30px;
+    background-color: #FAFAFA;
+    position: sticky;
+    top: 0px;
+}
+.nav-btn{
+    border: 1px solid #BEBEBE;
+    border-radius: 20px;
+    background-color: white;
+    padding: 7px 19px;
+}
+.navbar-nav{
+    background-color: white !important;
+    border-radius: 23px;
+    /* font-weight: 500; */
+}
+.search{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.776);
+}
+@media (max-width: 990px) {
+    form{
+        justify-content: center;
+    }
+    .search{
+        display: none !important;
+    }
+    .navbar-collapse{
+        margin-top: 10px;
+    }
+    .navbar-nav, .navbar{
+        border-radius: 0px;
+    }
+}
+
+/* main1 */
+.main{
+    display: flex;
+    /* border: 2px solid black; */
+    /* height: 490px; */
+    width: 97%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #C1DEE8, #FBD9B9);
+}
+.main1, .main2{
+    /* border: 2px solid; */
+    /* height: 80% !important; */
+}
+.main1{
+    padding: 45px 30px;
+}
+.main1-input{
+    border-radius: 23px;
+    border: none;
+    padding: 11px 60px 11px 12px;
+    font-size: 14px;
+    /* width: 40%; */
+}
+.btn2{
+    border-radius: 23px;
+    border: none;
+    padding: 11px 29px 11px 17px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    margin-left: -45px;
+    box-shadow: 0px 0px 10px black;
+}
+.main1-h1{
+    font-size: 49px;
+}
+.main1-span, .main1-para{
+    font-size: 15px;
+}
+.img1{
+    width: 100%;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width: 700px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }    
+    .main1-input{
+        display: block;
+        margin-bottom: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    .btn2{
+        margin: auto;
+        width: -webkit-fill-available
+    }
+}
+@media (min-width: 700px) and (max-width: 800px) {
+    .main1-input{
+        padding: 11px;
+    }
+}
