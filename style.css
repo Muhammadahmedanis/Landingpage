@@ -248,7 +248,7 @@
 
 /* footer */
 .foot{
-    margin: 0px 25px !important;
+    margin: 25px !important;
     margin-bottom: 19px;
     background-image: linear-gradient(90deg, #C1DEE8, #FBD9B9);
     border-radius: 10px;
